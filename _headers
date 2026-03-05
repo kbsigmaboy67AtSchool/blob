@@ -1,12 +1,6 @@
-/blob/*
+/*
   X-Frame-Options: ALLOWALL
   Content-Security-Policy: frame-ancestors *
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET,POST,OPTIONS
-  Access-Control-Allow-Headers: *
+  Cross-Origin-Embedder-Policy: unsafe-none
+  Cross-Origin-Opener-Policy: unsafe-none
   Cross-Origin-Resource-Policy: cross-origin
-
-/*
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET,POST,OPTIONS
-  Access-Control-Allow-Headers: *
